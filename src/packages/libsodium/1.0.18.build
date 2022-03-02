@@ -2,7 +2,7 @@ source meta.build
 
 TYPE="archive"
 URL="https://download.libsodium.org/libsodium/releases/libsodium-1.0.18-stable.tar.gz"
-SHA3="7ff5d9a5754df376d809bfc994164315ec85b330573e1cd885fe33fbfe852153"
+SHA3="bd4ae59d37918edc1e64488d9dd600dbffe828deb8b82d4f9a756d3ce74955d3"
 
 build() {
   if [[ "${CXXPM_SYSTEM_NAME}" = "Windows" && "${CXXPM_SYSTEM_SUBTYPE}" = "msvc" ]]
